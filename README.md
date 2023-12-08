@@ -7,3 +7,5 @@ CSS kodu, Mario piksel sanatının farklı unsurlarını stilize etmek için kul
 2. `index.html` dosyasını bir web tarayıcısıyla açın.
 
 ![sc](https://github.com/ladyvahsi/Mario-Pixel-Drawing/assets/90203389/13379099-f0f4-4d27-add3-5afa013c72f9)
+
+**Not:** Bu proje sadece eğitim amaçlıdır ve gerçek bir ürünü temsil etmez.
