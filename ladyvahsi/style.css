@@ -1,1 +1,210 @@
+/* Styling for the body */
+body {
+  background: #111;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+/* Styling for the canvas */
+.canvas {
+  width: 320px;
+  height: 320px;
+  transform: scale(1);
+}
+
+/* Styling for each pixel on the canvas */
+.pixel {
+  width: 20px;
+  height: 20px;
+  float: left;
+  box-shadow: 0px 0px 2px #555;
+}
+
+/* Styling for Mario's hat */
+#pixel-1-6, 
+#pixel-1-7,
+#pixel-1-8,
+#pixel-1-9,
+#pixel-1-10,
+#pixel-2-5,
+#pixel-2-6,
+#pixel-2-7,
+#pixel-2-8,
+#pixel-2-9,
+#pixel-2-10,
+#pixel-2-11,
+#pixel-2-12,
+#pixel-2-13 {
+  background: red;
+}
+
+/* Styling for Mario's hair */
+#pixel-3-5,
+#pixel-3-6,
+#pixel-3-7,
+#pixel-4-4,
+#pixel-4-6,
+#pixel-5-4,
+#pixel-5-6,
+#pixel-5-7,
+#pixel-6-5 {
+  background: #994806;
+}
+
+/* Styling for Mario's mustache and eyes */
+#pixel-3-10,
+#pixel-4-10,
+#pixel-5-11,
+#pixel-6-10,
+#pixel-6-11,
+#pixel-6-12,
+#pixel-6-13 {
+  background: black;
+}
+
+/* Styling for Mario's face */
+#pixel-3-8,
+#pixel-3-9,
+#pixel-3-11,
+#pixel-4-5,
+#pixel-4-7,
+#pixel-4-8,
+#pixel-4-9,
+#pixel-4-11,
+#pixel-4-12,
+#pixel-4-13,
+#pixel-5-5,
+#pixel-5-8,
+#pixel-5-9,
+#pixel-5-10,
+#pixel-5-12,
+#pixel-5-13,
+#pixel-5-14,
+#pixel-6-6,
+#pixel-6-7,
+#pixel-6-8,
+#pixel-6-9,
+#pixel-7-6,
+#pixel-7-7,
+#pixel-7-8,
+#pixel-7-9,
+#pixel-7-10,
+#pixel-7-11 {
+  background: #fcbf90;
+}
+
+/* Styling for Mario's shirt */
+#pixel-8-5,
+#pixel-8-6,
+#pixel-8-8,
+#pixel-8-9,
+#pixel-8-11,
+#pixel-8-12,
+#pixel-9-4,
+#pixel-9-5,
+#pixel-9-6,
+#pixel-9-8,
+#pixel-9-9,
+#pixel-9-11,
+#pixel-9-12,
+#pixel-9-13,
+#pixel-10-3,
+#pixel-10-4,
+#pixel-10-5,
+#pixel-10-6,
+#pixel-10-11,
+#pixel-10-12,
+#pixel-10-13,
+#pixel-10-14,
+#pixel-11-5,
+#pixel-11-12{
+  background: red;
+}
+
+/* Styling for Mario's left hand */
+#pixel-11-3,
+#pixel-11-4,
+#pixel-12-3,
+#pixel-12-4,
+#pixel-12-5,
+#pixel-13-3,
+#pixel-13-4 {
+  background: #fcbf90;
+}
+
+/* Styling for Mario's right hand */
+#pixel-11-13,
+#pixel-11-14,
+#pixel-12-12,
+#pixel-12-13,
+#pixel-12-14,
+#pixel-13-13,
+#pixel-13-14 {
+  background: #fcbf90;
+}
+
+/* Styling for Mario's buttons */
+#pixel-11-7,
+#pixel-11-10 {
+  background: #ffd700;
+}
+
+/* Styling for Mario's overalls */
+#pixel-8-7,
+#pixel-8-10,
+#pixel-9-7,
+#pixel-9-10,
+#pixel-10-7,
+#pixel-10-8,
+#pixel-10-9,
+#pixel-10-10,
+#pixel-11-6,
+#pixel-11-8,
+#pixel-11-9,
+#pixel-11-11,
+#pixel-12-6,
+#pixel-12-7,
+#pixel-12-8,
+#pixel-12-9,
+#pixel-12-10,
+#pixel-12-11,
+#pixel-13-5,
+#pixel-13-6,
+#pixel-13-7,
+#pixel-13-8,
+#pixel-13-9,
+#pixel-13-10,
+#pixel-13-11,
+#pixel-13-12,
+#pixel-14-5,
+#pixel-14-6,
+#pixel-14-7,
+#pixel-14-10,
+#pixel-14-11,
+#pixel-14-12 {
+  background: #0272bc;
+}
+
+/* Styling for Mario's left shoe */
+#pixel-15-4,
+#pixel-15-5,
+#pixel-15-6,
+#pixel-16-3,
+#pixel-16-4,
+#pixel-16-5,
+#pixel-16-6 {
+  background: #994806;
+}
+
+/* Styling for Mario's right shoe */
+#pixel-15-11,
+#pixel-15-12,
+#pixel-15-13,
+#pixel-16-11,
+#pixel-16-12,
+#pixel-16-13,
+#pixel-16-14 {
+  background: #994806;
+}
